@@ -28,7 +28,6 @@ this.leido = true;
 if (leido = true){
    System.out.println("El libro ha sido leído:" + leido);
 }
-
 }
 
 public boolean esAntiguo(){ //O1
@@ -37,4 +36,22 @@ int anio = now.getYear();
 return (anio - anioPublicacion) >= 50;
 
 }
+public String getTitulo(){ //O1
+return titulo;
+
 }
+public String getAutor(){ //O1
+return autor;
+
+}
+public String getGenero(){ //O1
+return genero;
+
+}
+
+public boolean getLeido(){ //O1
+return leido;
+
+}
+}
+
